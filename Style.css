@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4fff4;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+.banner{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(to right,#66bb6a,#81c784);
+    color:white;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+.card h3{
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.sobre{
+    padding:40px;
+    text-align:center;
+}
+
+.sobre h2{
+    color:#2e7d32;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
